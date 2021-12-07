@@ -3,17 +3,14 @@ body{
 	background-color: rgb(0, 0, 0);
 }
 #container{
-	width: 1000px;
-	height: 550px;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(34, 82, 238, 0.301)), url(C:\Users\zengs\OneDrive\Desktop\Webdev\day3\calculatorAgain...uugh\ocean.jpg);
+	height: 100vh;
 
-    overflow: auto;
-	vertical-align: top
 }
 #calculator{
+	
 	width: 320px;
-	height: 520px;
-	background-color: #eaedef;
+	height:fit-content;
+	background-color: #000000;
 	margin: 0 auto;
 	top: 20px;
 	position: relative;
@@ -21,7 +18,7 @@ body{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #result{
-	height: 120px;
+	height:auto;
 }
 #history{
 	text-align: right;
